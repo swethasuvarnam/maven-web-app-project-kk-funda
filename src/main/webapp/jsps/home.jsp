@@ -71,7 +71,7 @@
 <body>
 
 <header>
-    <h1>🚀 Welcome to KK FUNDA 🚀</h1>
+    <h1>🚀 Welcome to KK FUNDAA🚀</h1>
     <h3>DevOps Online Class - Join at 7:45 PM</h3>
 </header>
 
