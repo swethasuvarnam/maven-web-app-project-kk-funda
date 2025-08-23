@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>KK FUNDA Home Page hello</title>
+<title>KK FUNDA Home Page </title>
 <link href="images/kkfunda.jpg" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to KK devops Online class join at 7:45</h1>
+<h1 align="center">Welcome to KK devops Online class join at 7:45pm</h1>
 <h1 align="center"> KK FUNDA</h1>
 <hr>
 <br>
