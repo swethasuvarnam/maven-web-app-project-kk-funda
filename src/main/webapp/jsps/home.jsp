@@ -79,7 +79,7 @@
     <h2>🌍 Server & Client Details</h2>
 
     <div class="info-box">
-        <h3>🔹 Server Side Information</h3>
+        <h3>🔹 Server Side Info</h3>
         <p>
             <% 
                 InetAddress inetAddress = InetAddress.getLocalHost();
