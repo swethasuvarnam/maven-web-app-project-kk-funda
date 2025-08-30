@@ -34,7 +34,7 @@ node {
         sh """
            curl -u swetha:swetha\
         --upload-file /var/lib/jenkins/workspace/jio-scripted-PL/target/maven-web-application.war\
-        "http://54.158.255.230:8080/manager/text/deploy?path=/maven-web-application&update=true"
+        "http://54.159.50.6:8080/manager/text/deploy?path=/maven-web-application&update=true"
         """
     }
 
