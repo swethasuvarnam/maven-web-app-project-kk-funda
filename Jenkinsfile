@@ -10,7 +10,7 @@ node {
     try {
 
 	stage('git checkout')
-	{ git branch: 'prod', credentialsId: '5ea20986-163c-4386-8e41-58e1dc568ae1', url: 'https://github.com/swethasuvarnam/maven-web-app-project-kk-funda.git'}
+	{ git branch: 'dev', credentialsId: '5ea20986-163c-4386-8e41-58e1dc568ae1', url: 'https://github.com/swethasuvarnam/maven-web-app-project-kk-funda.git'}
       
 	stage('compile')
 	{
