@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(String buildStatus = 'STARTED', String channel = '#general') {
+def notifySlack(String buildStatus = 'STARTED', String channel = '#general') {
     // Set default color
     def colorCode = '#FF0000' // RED for failure
     if (buildStatus == 'SUCCESS') {
