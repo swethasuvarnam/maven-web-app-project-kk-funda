@@ -4,7 +4,7 @@ pipeline
 
   tools
   {
-  maven "maven-3.9.9"
+  maven "maven-3.9.11"
   }
 
   stages
@@ -68,7 +68,7 @@ pipeline
         sh """
             curl -u kkfunda:password \
             --upload-file /var/lib/jenkins/workspace/jio-Scripted-dev-PL/target/maven-web-application.war \
-            "http://23.22.212.34:8080/manager/text/deploy?path=/maven-web-application&update=true"
+            "http://34.228.230.161:8080/manager/text/deploy?path=/maven-web-application&update=true"
         """
         }
      }
