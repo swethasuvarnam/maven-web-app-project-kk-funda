@@ -68,7 +68,7 @@ pipeline
         sh """
             curl -u kkfunda:password \
             --upload-file /var/lib/jenkins/workspace/jio-Scripted-dev-PL/target/maven-web-application.war \
-            "http://34.228.230.161:8080/manager/text/deploy?path=/maven-web-application&update=true"
+            "http://98.83.143.151:8080/manager/text/deploy?path=/maven-web-application&update=true"
         """
         }
      }
